@@ -24,7 +24,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-<section data-markdown>
+<section data-markdown >
 	<textarea data-template>
 	
 	
@@ -37,6 +37,14 @@
 
 <section data-background-image="bomb.gif">
 	<h1 style="color:Tomato;">How I learned to stop worrying and love the reproducibility crisis</h1>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+	
+	<img src:"acrlrepro.png">
+	
+	</textarea>
 </section>
 
 <section data-markdown>
@@ -237,6 +245,9 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				slideNumber: true,
+				history: true,
+
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
